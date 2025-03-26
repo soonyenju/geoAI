@@ -1,4 +1,4 @@
-import matplotlib as plt
+from matplotlib import pyplot as plt
 
 def show_city_boundary(shp, country, buffer = 0.1, fc = '#ff7f0e'):
     shp.plot()
