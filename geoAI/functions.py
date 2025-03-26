@@ -1,4 +1,5 @@
 from matplotlib import pyplot as plt
+from shapely.geometry import Point, Polygon, LineString, MultiPoint, MultiLineString, MultiPolygon
 
 def show_city_boundary(shp, country, buffer = 0.1, fc = '#ff7f0e'):
     shp.plot()
