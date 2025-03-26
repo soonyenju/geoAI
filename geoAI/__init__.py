@@ -1,4 +1,3 @@
-from . import functions
-from shapely.geometry import Point, Polygon, LineString, MultiPoint, MultiLineString, MultiPolygon
+from . import functions as gfuncs
 
-__all__ = ["functions", "Point", "Polygon", "LineString", "MultiPoint", "MultiLineString", "MultiPolygon"]
+__all__ = ["gfuncs"]
