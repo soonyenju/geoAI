@@ -72,9 +72,9 @@ def closest_point2line(point, curves):
 
 
 
-from scigeo.meteo import saturation_vapor_pressure, specific_humidity2vapor_pressure
-from scitbx.utils import *
-from scigeo.geoface import load_tif
+from geoxai.geo.meteo import saturation_vapor_pressure, specific_humidity2vapor_pressure
+from geoxai.utils import *
+from geoxai.geo.geoface import load_tif
 
 def load_era5(p_ERA5):
     era5 = load_tif(p_ERA5, band_names = [
